@@ -1,0 +1,78 @@
+body {
+  font-family: "Noto Sans KR";
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: #08327d;
+  background-color: #FFFFFF;
+}
+.logo {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  color: #08327d;
+  display: block;
+  padding: 5px 20px;
+}
+
+main {
+  background-color: #08327d;
+  color: #A6A6A6;
+}
+.banner {
+  background-image: url(Images/banner.png);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner h1 {
+  display: flex;
+  background-color: #A6A6A6;
+  color: #08327d;
+  height: auto;
+  flex: auto;
+  text-align: right;
+  width: 50%;
+}
+.mision {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+aside {
+  background-color: ##558a86;
+}
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.columns {
+  background-color: #558a86;
+  color: #08327d;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 10px;
+}
+
+.column {
+  flex: 1 0 50%;
+}
